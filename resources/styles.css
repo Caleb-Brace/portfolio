@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    border: 5px solid black;
+    grid-template: repeat(3, 450px) / 250px;
+}
+.container{
+    min-width: 500px;
+    margin: auto;
+}
+
+.box{
+    background-color:beige;
+}
+
+.a{
+    text-align: center;
+    grid-area: 1/1/2/3;
+}
