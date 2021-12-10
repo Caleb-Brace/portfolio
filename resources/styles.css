@@ -8,7 +8,7 @@
 main{
     display: grid;
     min-height: 100vh;
-    grid-template: 1fr 2fr 1fr / 100px 250px 250px;
+    grid-template: 1fr 2fr 1fr / 100px 250px 1fr;
 }
 .container{
     background-image: url(../resources/media/grid-3230205_1920.jpg);
@@ -33,9 +33,11 @@ main{
     position: relative;
 }
 .b{
-    
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    grid-area: 3/1/3/3;
+    grid-area: 1/3/1/3;
 }
 
 header{
@@ -56,4 +58,9 @@ header{
 .passion{
     font-size: 54px;
     font-family: 'Russo One', sans-serif;
+}
+
+img{
+    height: 100px;
+    width: 100px;
 }
