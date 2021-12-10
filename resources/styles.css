@@ -33,11 +33,13 @@ main{
     position: relative;
 }
 .b{
-    justify-content: space-around;
+    padding-top: 75px;
+    align-items: flex-end;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     text-align: center;
-    grid-area: 1/3/1/3;
+    grid-area: 1/3/4/3;
 }
 
 header{
